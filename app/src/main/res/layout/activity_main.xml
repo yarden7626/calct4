@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="157dp"
+        android:text="@string/answe"
+        android:textSize="40sp"
+
+        tools:ignore="Autofill,LabelFor,MissingConstraints,TextFields" />
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#BF7A989C"
+            android:text="@string/c"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/ChangeSign"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BF7A989C"
+            android:text="@string/plusMinus"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BF7A989C"
+            android:text="@string/Del"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="/"
+            tools:ignore="ButtonStyle,DuplicateIds,HardcodedText,InOrMmUsage,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/eight"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/nine"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/multey"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="@string/mult"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/four"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/five"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/six"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="@string/minus"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/two"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/three"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="@string/plus"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/zero"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="@string/point"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="@string/equal"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+    </LinearLayout>
+
+
+</LinearLayout>
